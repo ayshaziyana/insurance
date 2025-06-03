@@ -1,0 +1,26 @@
+# 🏥 Insurance Charge Prediction using Machine Learning Pipeline
+
+This project aims to predict medical insurance charges using a machine learning pipeline that streamlines preprocessing and model training. The goal is to develop an end-to-end solution that can accurately estimate insurance costs based on user demographics and health-related attributes.
+
+---
+
+## 📌 Overview
+
+Medical insurance charges vary depending on personal and health-related features like age, BMI, smoking status, number of children, and region. This project uses a regression model within a pipeline to predict charges. The pipeline includes data preprocessing, feature encoding, scaling, and model fitting.
+
+---
+
+## 🧠 Problem Statement
+
+Given the following input features:
+
+- **Age**: Age of the individual.
+- **Sex**: Gender of the individual.
+- **BMI**: Body Mass Index.
+- **Children**: Number of children covered by the insurance.
+- **Smoker**: Smoking status (Yes/No).
+- **Region**: Residential region in the US.
+- **Charges** (Target): Individual medical costs billed by health insurance.
+
+The objective is to train a machine learning model to predict the `charges` based on the input features.
+
